@@ -1,8 +1,8 @@
-public class Ford extends Finanz{
+public class Auto extends Finanz{
     private String beschreibung;
     private String garantie;
 
-    public Ford(double preis, short erstzulassung, double kilometerStand, String anzahlTuer, int sitzPlatz, double motorRaum, String beschreibung, String garantie) {
+    public Auto(double preis, short erstzulassung, double kilometerStand, String anzahlTuer, int sitzPlatz, double motorRaum, String beschreibung, String garantie) {
         super(preis, erstzulassung, kilometerStand, anzahlTuer, sitzPlatz, motorRaum);
         this.beschreibung = beschreibung;
         this.garantie = garantie;
