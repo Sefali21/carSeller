@@ -1,17 +1,22 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class CarSeller {
     public static void main(String[] args) {
-        // Press Alt+Eingabe with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+//        Ford kuga1=new Ford(17999.2, (short) 2020,73001.2,"5",5,2.0,"hat neue TUV","ein Jahr Garantie");
+//        kuga1.setLeasing(false);
+//        kuga1.setKredit(true);
+//        System.out.println(kuga1.toString());
 
-        // Press Umschalt+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
 
-            // Press Umschalt+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Strg+F8.
-            System.out.println("i = " + i);
-        }
+        Auto kuga1=new Auto(17999.2, (short) 2020,73001.2,"5",5,2.0,"hat neue TUV","ein Jahr Garantie");
+        kuga1.setLeasing(false);
+        kuga1.setKredit(true);
+        System.out.println(kuga1.toString());
+        kuga1.setVorleistung(11299);
+        kuga1.setLaufzeit((short)72);
+        kuga1.setPreis(17999.2);
+        System.out.println("Zinsen");
+        kuga1.rechnenZinzen();
+
     }
 }
